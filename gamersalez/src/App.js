@@ -1,4 +1,5 @@
 import './App.css';
+import { Searchbar } from './Components/Searchbar';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <p id="SiteName">CHEAPGAMERZ</p>
         <p>At your price</p>
       </div>
+      <Searchbar />
     </div>
   );
 }
