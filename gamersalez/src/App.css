@@ -1,9 +1,9 @@
 *
 {
   margin: 0;
+  box-sizing: border-box;
   /* All border sizing is for trouble shooting element spaces/margin*/
-  /* box-sizing: border-box;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 1px;
   border-color: red; */
 }
@@ -13,6 +13,7 @@ div.Main
   background-color: #957A67;
   font-size: 10rem;
   height: 100vh;
+  width: 100%;
 }
 
 div.Title
@@ -38,5 +39,24 @@ div.Title > p#SiteName
    font-family: 'Orbitron', sans-serif, 'Courier New', Courier, monospace;
 }
 
+#searchBar
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* width: 100%; */
+}
 
+.bar
+{
+  position: relative;
+  /* left: 120%; */
+  width: 70%;
+  /* height: 70%; */
+  margin-left: 15%;
+}
 
+#putGroup
+{
+  margin-bottom: 530vh;
+}
