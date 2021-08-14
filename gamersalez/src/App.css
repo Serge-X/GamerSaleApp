@@ -47,16 +47,45 @@ div.Title > p#SiteName
   /* width: 100%; */
 }
 
-.bar
+#putGroup
+{
+  display: flex;
+  margin-top: 5%;
+}
+
+#bar
 {
   position: relative;
   /* left: 120%; */
   width: 70%;
-  /* height: 70%; */
+  height: 35px;
+  border-style: none;
+  border-radius: 20px;
   margin-left: 15%;
 }
 
-#putGroup
+#bar::placeholder
 {
-  margin-bottom: 530vh;
+  color:brown;
+  font-size: 1.32em;
 }
+
+#bar:focus
+{
+  outline-style: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #57ce13;
+}
+
+#searchButton
+{
+  width: 60px;
+  height: 45px;
+  border-radius: 10%;
+  position: relative;
+  bottom: 5px;
+  margin-left: 3px;
+}
+
+
