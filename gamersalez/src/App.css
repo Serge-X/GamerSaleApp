@@ -73,19 +73,19 @@ div.Title > p#SiteName
 #bar:focus
 {
   outline-style: none;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #57ce13;
+  border-style:solid;
+  border-width: 3px;
+  border-color: #155CA2;
 }
 
 #searchButton
 {
   width: 60px;
-  height: 45px;
+  height: 55px;
   border-radius: 10%;
   position: relative;
-  bottom: 5px;
-  margin-left: 3px;
+  bottom: 10px;
+  right: 20px;
 }
 
 

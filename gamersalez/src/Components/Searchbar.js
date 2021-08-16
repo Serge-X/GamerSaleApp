@@ -10,7 +10,7 @@ export const Searchbar = () => {
             <InputGroup size="sm" id="putGroup"  >
                 <FormControl 
                     id="bar"
-                    placeholder="Search Games"
+                    placeholder="Games"
                     aria-label="Search Games"
                 />
                 <Button id="searchButton">
